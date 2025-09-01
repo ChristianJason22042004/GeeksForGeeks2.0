@@ -1,4 +1,4 @@
-# GeeksforGeeks 2.0 Clone
+# GeeksforGeeks2.0 
 
 ---
 
@@ -69,8 +69,12 @@ http://localhost:8080
 - Netlify → Solves fast, global delivery of static content via CDN
 - Docker → Solves environment drift and enables reproducible builds across dev, staging, and production
 
+---
+
 🖼️ Live Preview
 <p align="center"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20240301133213/2024-03-0113-27-29online-video-cuttercom-ezgifcom-video-to-gif-converter.gif" alt="App Preview" /></p>
+
+---
 
 🧠 Skills Demonstrated
 - Semantic HTML5 layout
@@ -80,10 +84,14 @@ http://localhost:8080
 - Modular folder architecture
 - Static hosting via Netlify
 
+---
+
 🔧 Future Enhancements
 - Blog search functionality
 - Dark mode toggle
 - Enhanced mobile responsiveness
+
+---
 
 🏁 Outcome
 This project demonstrates how to:
