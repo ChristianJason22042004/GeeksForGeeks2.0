@@ -1,5 +1,5 @@
 🌐 GeeksforGeeks 2.0 Clone
-<p align="center"> <img src="https://upload.wikimedia.org/favicon.ico" width="40" height="40" alt="GeeksforGeeks Favicon"/> </p>
+
 
 
 
@@ -22,12 +22,19 @@ A modern and responsive clone of GeeksforGeeks 🌐 built using HTML, CSS, and J
 
 📂 Additional pages & static assets
 
+ ---
+
+ 
 🚀 Tech Stack
 Technology	Purpose
 🖋️ HTML5	Structure of web pages
 🎨 CSS3	Styling & responsiveness
 ⚡ JavaScript	Interactivity & logic
 🐳 Docker	Containerized deployment
+
+---
+
+
 📂 Project Structure
 geeksforgeeks2.0/
 │── HTML/         # Multiple HTML files (index, blog, contact, etc.)
@@ -38,6 +45,10 @@ geeksforgeeks2.0/
 │── docker-compose.yaml  # Optional Compose setup
 │── .dockerignore # Ignored files during build
 
+
+---
+
+
 🐳 Run with Docker
 🔨 1. Build Image
 docker build -t geekforgeeks-clone:latest .
@@ -47,11 +58,16 @@ docker run -d -p 8080:80 --name priceless_wilber geekforgeeks-clone:latest
 
 🌍 3. Access Project
 
-👉 http://localhost:8080/index.html
+👉 https://jasonchristian.netlify.app/
 
 🎥 Live Preview
 
 Here’s how the project looks in action 👇
+
+https://media.geeksforgeeks.org/wp-content/uploads/20240301133213/2024-03-0113-27-29online-video-cuttercom-ezgifcom-video-to-gif-converter.gif
+
+
+---
 
 🏆 Skills Showcased
 
@@ -65,6 +81,8 @@ Here’s how the project looks in action 👇
 
 📂 Project Structuring – Organized and scalable folder design
 
+---
+
 🎯 Future Enhancements
 
 🔍 Search feature for blogs
@@ -72,5 +90,7 @@ Here’s how the project looks in action 👇
 🌗 Dark mode toggle
 
 📱 Improved mobile responsiveness
+
+---
 
 🔥 This project demonstrates frontend development skills + Docker deployment expertise — making it a production-ready showcase.
