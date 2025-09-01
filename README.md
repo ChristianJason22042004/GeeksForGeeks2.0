@@ -59,34 +59,46 @@ docker run -d -p 8080:80 --name gfg_clone geeksforgeeks-clone:latest
 
 
 3. Access the site locally
+Open your browser and go to:
 http://localhost:8080
 
+```
+ ---
 
-
-⚖️ Why Both Netlify and Docker?
+ 
+## ⚖️ Why Both Netlify and Docker?
 - Netlify → Fast, reliable hosting for static websites
 - Docker → Ensures consistent behavior across environments and showcases containerization skills
+
+---
+
 
 🖼️ Live Preview
 <p align="center"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20240301133213/2024-03-0113-27-29online-video-cuttercom-ezgifcom-video-to-gif-converter.gif" alt="App Preview" /></p>
 
+
+---
+
 🧠 Skills Showcased
 - Semantic HTML5 layout
-- Clean, responsive CSS3 styling
+- Clean, responsive CSS styling
 - JavaScript DOM manipulation
-- Dockerized deployment
+- Containerized deployment
 - Modular folder structure
 - Netlify static hosting
+
+---
 
 🔧 Future Enhancements
 - Blog search functionality
 - Dark mode toggle
 - Enhanced mobile responsiveness
 
+---
+
 This project demonstrates frontend development, containerization, and cloud deployment expertise — making it both a production-ready website and a strong portfolio showcase.
 
-
-
+---
 
 Connect
 
