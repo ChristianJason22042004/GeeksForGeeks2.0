@@ -59,10 +59,9 @@ docker run -d -p 8080:80 --name priceless_wilber geekforgeeks-clone:latest
  
 🎥 Live Preview
 
-## 📸 Preview
-
-![App Preview](https://media.geeksforgeeks.org/wp-content/uploads/20240301133213/2024-03-0113-27-29online-video-cuttercom-ezgifcom-video-to-gif-converter.gif)
-
+<p align="center">
+  <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240301133213/2024-03-0113-27-29online-video-cuttercom-ezgifcom-video-to-gif-converter.gif" alt="App Preview" />
+</p>
 
 ---
 
