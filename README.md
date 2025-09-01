@@ -84,3 +84,14 @@ http://localhost:8080
 - Enhanced mobile responsiveness
 
 This project demonstrates frontend development, containerization, and cloud deployment expertise — making it both a production-ready website and a strong portfolio showcase.
+
+
+
+
+Connect
+
+📧 Email → christianjason2204@gmail.com
+
+💼 LinkedIn → LinkedIn Profile
+
+🐙 GitHub → GitHub Profile
