@@ -1,6 +1,5 @@
-:
-
 🌐 GeeksforGeeks 2.0 Clone
+<p align="center"> <img src="https://upload.wikimedia.org/favicon.ico" width="40" height="40" alt="GeeksforGeeks Favicon"/> </p>
 
 
 
@@ -13,24 +12,22 @@
 
 A modern and responsive clone of GeeksforGeeks 🌐 built using HTML, CSS, and JavaScript and containerized with 🐳 Docker.
 
-🏠 Home page (index.html)
+📌 Features:
 
-📝 Blog page (blog.html)
+🏠 Home page → index.html
 
-📞 Contact page (contact.html)
+📝 Blog page → blog.html
+
+📞 Contact page → contact.html
 
 📂 Additional pages & static assets
 
 🚀 Tech Stack
 Technology	Purpose
-
-	Structure of web pages
-
-	Styling & responsiveness
-
-	Interactivity & logic
-
-	Containerized deployment
+🖋️ HTML5	Structure of web pages
+🎨 CSS3	Styling & responsiveness
+⚡ JavaScript	Interactivity & logic
+🐳 Docker	Containerized deployment
 📂 Project Structure
 geeksforgeeks2.0/
 │── HTML/         # Multiple HTML files (index, blog, contact, etc.)
@@ -38,33 +35,35 @@ geeksforgeeks2.0/
 │── JS/           # JavaScript files
 │── static/       # Images & static assets
 │── Dockerfile    # Docker build instructions
+│── docker-compose.yaml  # Optional Compose setup
+│── .dockerignore # Ignored files during build
 
 🐳 Run with Docker
-1️⃣ Build Image
+🔨 1. Build Image
 docker build -t geekforgeeks-clone:latest .
 
-2️⃣ Run Container
+▶️ 2. Run Container
 docker run -d -p 8080:80 --name priceless_wilber geekforgeeks-clone:latest
 
-3️⃣ Access Project
+🌍 3. Access Project
 
 👉 http://localhost:8080/index.html
 
 🎥 Live Preview
 
-Here’s how the project looks in action:
+Here’s how the project looks in action 👇
 
 🏆 Skills Showcased
 
-💻 HTML5 – Semantic page layouts
+💻 HTML5 – Semantic & accessible layouts
 
 🎨 CSS3 – Clean & modern styling
 
-⚡ JavaScript – Interactivity & DOM manipulation
+⚡ JavaScript – DOM manipulation & interactivity
 
 🐳 Docker – Containerized deployment
 
-📂 Project Structuring – Professional organization
+📂 Project Structuring – Organized and scalable folder design
 
 🎯 Future Enhancements
 
@@ -72,6 +71,6 @@ Here’s how the project looks in action:
 
 🌗 Dark mode toggle
 
-📱 Better mobile responsiveness
+📱 Improved mobile responsiveness
 
-🔥 This project highlights both frontend development expertise and Docker-based deployment skills, making it a production-ready showcase.
+🔥 This project demonstrates frontend development skills + Docker deployment expertise — making it a production-ready showcase.
