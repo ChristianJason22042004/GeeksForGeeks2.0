@@ -1,4 +1,4 @@
-# GeeksforGeeks2.0 
+# GeeksforGeeks Clone
 
 ---
 
