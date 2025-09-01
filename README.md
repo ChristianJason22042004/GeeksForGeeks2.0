@@ -1,12 +1,6 @@
-🌐 GeeksforGeeks 2.0 Clone
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4exfK9w9g_rL_0M-REN0UYKkEhSSDadugw&s" alt="Project Icon" width="100"> GeeksforGeeks 2.0 Clone
 
-
-
-
-
-
-
-
+----
 
 ✨ Project Overview
 
@@ -60,12 +54,14 @@ docker run -d -p 8080:80 --name priceless_wilber geekforgeeks-clone:latest
 
 👉 https://jasonchristian.netlify.app/
 
+ ----
+
+ 
 🎥 Live Preview
 
-Here’s how the project looks in action 👇
+## 📸 Preview
 
-![Uploading geekforgeeks_functional.gif…]()
-
+![App Preview](https://media.geeksforgeeks.org/wp-content/uploads/20240301133213/2024-03-0113-27-29online-video-cuttercom-ezgifcom-video-to-gif-converter.gif)
 
 
 ---
