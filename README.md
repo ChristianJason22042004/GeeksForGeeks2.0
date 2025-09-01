@@ -1,4 +1,4 @@
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4exfK9w9g_rL_0M-REN0UYKkEhSSDadugw&s" alt="Project Icon" width="100"> GeeksforGeeks 2.0 Clone
+<img src="C:\Users\chris\Downloads\favicon_no_bg.ico" alt="Project Icon" width="100"> GeeksforGeeks 2.0 Clone
 
 ----
 
@@ -21,6 +21,7 @@ A modern and responsive clone of GeeksforGeeks 🌐 built using HTML, CSS, and J
  
 🚀 Tech Stack
 Technology	Purpose
+
 🖋️ HTML5	Structure of web pages
 🎨 CSS3	Styling & responsiveness
 ⚡ JavaScript	Interactivity & logic
