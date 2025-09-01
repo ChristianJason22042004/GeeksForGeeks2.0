@@ -1,4 +1,5 @@
-<img src="C:\Users\chris\Downloads\favicon_no_bg.ico" alt="Project Icon" width="100"> GeeksforGeeks 2.0 Clone
+<img width="24" height="20" alt="favicon-geeksforgeeks" src="https://github.com/user-attachments/assets/b658819d-a956-4e94-a8db-d575a8620145" />
+ GeeksforGeeks 2.0 Clone
 
 ----
 
