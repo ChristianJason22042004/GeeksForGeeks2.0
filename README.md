@@ -64,7 +64,8 @@ docker run -d -p 8080:80 --name priceless_wilber geekforgeeks-clone:latest
 
 Here’s how the project looks in action 👇
 
-https://media.geeksforgeeks.org/wp-content/uploads/20240301133213/2024-03-0113-27-29online-video-cuttercom-ezgifcom-video-to-gif-converter.gif
+![Uploading geekforgeeks_functional.gif…]()
+
 
 
 ---
