@@ -99,3 +99,7 @@ This project demonstrates how to:
 - Solve deployment across cloud and container environments
 - Showcase production-readiness in both code and infrastructure
 Ideal for roles that value hands-on engineering, DevOps fluency, and frontend precision — from startups to FANG-level teams.
+
+---
+
+Note: This is a personal frontend clone of GeeksforGeeks for learning and demonstration purposes.
