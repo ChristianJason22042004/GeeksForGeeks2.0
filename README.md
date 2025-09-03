@@ -60,7 +60,7 @@ geeksforgeeks2.0/
 ### 🔗 Netlify Hosting
 
 Live site:  
-**https://geeksforgeeksjason.netlify.app/blog**
+**https://geeksforgeeksjason.netlify.app/**
 
 ---
 
