@@ -69,14 +69,16 @@ Live site:
 **Build the image**
 ```bash
 docker build -t geeksforgeeks-clone:latest .
-Run the container
+```
 
-bash
-Copy code
+**Run the container**
+```bash
 docker run -d -p 8080:80 --name gfg_clone geeksforgeeks-clone:latest
-Access locally
-http://localhost:8080
+```
 
+**Access locally**
+```bash
+http://localhost:8080
 ```
 
 ---
