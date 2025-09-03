@@ -6,7 +6,7 @@
 
 This project reimagines the GeeksforGeeks interface using **pure frontend technologies** — HTML, CSS, and JavaScript — while solving the challenge of **scalable deployment** across both cloud and local environments.
 
-By integrating **Netlify** for instant static hosting and **Docker** for containerized reproducibility, this project demonstrates how to bridge frontend development with production-grade DevOps practices.
+By integrating **Netlify** for instant static hosting and **Docker** for containerized reproducibility, this project bridges frontend development with production-grade DevOps practices.
 
 ---
 
@@ -40,7 +40,7 @@ By integrating **Netlify** for instant static hosting and **Docker** for contain
 > This makes the structure look less modular, but ensures all static assets (CSS/JS/images) load correctly on deployment.
 
 geeksforgeeks2.0/
-├── index.html # Main entry point
+├── index.html
 ├── about.html
 ├── blog.html
 ├── contact.html
@@ -49,12 +49,9 @@ geeksforgeeks2.0/
 ├── CSS/ # Stylesheets
 ├── JS/ # JavaScript files
 ├── static/ # Images and assets
-├── Dockerfile # Docker build instructions
-├── docker-compose.yaml # Optional Compose setup
-└── .dockerignore # Ignored files during build
-
-yaml
-Copy code
+├── Dockerfile
+├── docker-compose.yaml
+└── .dockerignore
 
 ---
 
@@ -63,44 +60,54 @@ Copy code
 ### 🔗 Netlify Hosting
 
 Live site:  
-**[GeeksforGeeks 2.0 on Netlify](https://geeksforgeeksjason.netlify.app/)**
+**https://geeksforgeeksjason.netlify.app/blog**
 
 ---
 
 ### 🐳 Docker Local Deployment
 
-**Step 1: Build the image**
+**Build the image**
 ```bash
 docker build -t geeksforgeeks-clone:latest .
-Step 2: Run the container
+Run the container
 
 bash
 Copy code
 docker run -d -p 8080:80 --name gfg_clone geeksforgeeks-clone:latest
-Step 3: Access locally
-
-arduino
-Copy code
+Access locally
 http://localhost:8080
-📝 Deployment Notes
-Initially, all .html files were inside an /HTML folder with CSS, JS, and assets in sibling directories.
 
-On Netlify, setting /HTML as the publish directory caused issues because ../CSS and ../JS paths were no longer accessible.
+```
 
-✅ Solution: Move all .html files into the root directory so that assets could be referenced cleanly (CSS/style.css, JS/app.js, etc.).
+---
 
-While this makes the folder structure look less modular, it ensures reliable deployment on Netlify.
+### 📝 Deployment Notes
 
-⚖️ Why Netlify + Docker?
+Originally, .html files were inside /HTML with assets in sibling folders.
 
-Netlify → Solves fast, global delivery of static content via CDN
+On Netlify, publishing /HTML broke asset paths (../CSS, ../JS) because sibling folders weren’t deployed.
 
-Docker → Solves environment drift and enables reproducible builds across dev, staging, and production
+✅ Solution: Move all .html files into the root directory, and reference assets as CSS/style.css, JS/app.js, etc.
 
-🖼️ Live Preview
+Tradeoff: structure looks less modular, but deployment is reliable and simple.
+
+---
+
+### ⚖️ Why Netlify + Docker?
+
+Netlify → Delivers static content globally via CDN
+
+Docker → Ensures reproducible builds across dev, staging, and production
+
+---
+
+### 🖼️ Live Preview
 
 <p align="center"> <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240301133213/2024-03-0113-27-29online-video-cuttercom-ezgifcom-video-to-gif-converter.gif" alt="App Preview" /> </p>
-🧠 Skills Demonstrated
+
+---
+
+### 🧠 Skills Demonstrated
 
 Semantic HTML5 layout
 
@@ -110,11 +117,11 @@ JavaScript DOM manipulation
 
 Dockerized deployment pipeline
 
-Modular folder architecture
-
 Static hosting via Netlify
 
-🔧 Future Enhancements
+---
+
+### 🔧 Future Enhancements
 
 Blog search functionality
 
@@ -122,7 +129,9 @@ Dark mode toggle
 
 Enhanced mobile responsiveness
 
-🏁 Outcome
+---
+
+### 🏁 Outcome
 This project demonstrates how to:
 
 Build a modular, responsive frontend from scratch
@@ -132,6 +141,8 @@ Solve deployment across cloud and container environments
 Showcase production-readiness in both code and infrastructure
 
 Ideal for roles that value hands-on engineering, DevOps fluency, and frontend precision — from startups to FANG-level teams.
+
+---
 
 📌 Note:
 This is a personal frontend clone of GeeksforGeeks for learning and demonstration purposes.
