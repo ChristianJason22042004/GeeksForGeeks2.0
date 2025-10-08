@@ -63,4 +63,7 @@ Implement a persistent Dark Mode using local storage.
 Improve SEO with proper meta tags and sitemap generation.
 
 Enhance UX with techniques like image lazy-loading.
+
+---
+
 Note: This is a personal project built solely for learning and portfolio demonstration.
