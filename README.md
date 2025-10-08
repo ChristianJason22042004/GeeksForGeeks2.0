@@ -9,12 +9,16 @@ A responsive, multi-page frontend replication of the GeeksforGeeks interface, de
 This project showcases end-to-end ownership from design implementation to global CDN hosting.
 
 
+
+
 💡 Tech Stack & Focus Areas
 
 ---
 
 Frontend	HTML5, CSS3, Vanilla JS	Semantic structure, Mobile-First Responsive Design, and DOM interactivity.
 Deployment	Docker, Netlify	Environment-Agnostic Builds and Continuous Deployment (CD) via global CDN.
+
+
 
 
 ⚙️ Features
@@ -30,11 +34,15 @@ Modular Code: Structured CSS and JS directories for maintainability and scalabil
 Deployment Ready: Optimized file pathing to ensure assets load correctly on both Docker and Netlify environments.
 
 
+
+
 🌐 Live Access & Deployment
 
 ---
 
 Live CDN : https://geeksforgeeksjason.netlify.app/	
+
+
 
 
 🐳 Docker Setup
@@ -53,11 +61,15 @@ Access locally at http://localhost:8080.
 ```
 
 
+
+
 🖼️ Live Preview
 
 ---
 
 <p align="center"> <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240301133213/2024-03-0113-27-29online-video-cuttercom-ezgifcom-video-to-gif-converter.gif" alt="App Preview" /> </p>
+
+
 
 
 📈 Next Steps
